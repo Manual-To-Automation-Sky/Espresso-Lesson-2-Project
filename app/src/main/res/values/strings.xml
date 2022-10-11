@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BasicProject</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="test_string">This is a test string</string>
+    <string name="header_logo_image">header-logo-image</string>
+    <string name="switchButtonText">Switches</string>
+    <string name="listButtonText">Lists</string>
+    <string name="dateButtonText">Date Picker</string>
+    <string name="formButtonText">Form</string>
+    <string name="textFieldButtonText">Text Field</string>
+    <string name="alertButtonText">Alert</string>
+    <string name="alertPageText">You are on the Alert page!</string>
+    <string name="alertPageGoBackButtonText">Go Back</string>
+    <string name="enterTextbuttonText">Submit</string>
+    <string name="enterTextBoxText">Enter text...</string>
+    <string name="enteredTextLabelText">Entered Text:</string>
+    <string name="enterTextHintText">Enter some text</string>
+    <string name="textFieldPageGoBackButtonText">Go Back</string>
+    <string name="firstNameLabelText">First Name:</string>
+    <string name="lastNameLabelText">Last Name:</string>
+    <string name="emailAddressLabelText">Email Address:</string>
+    <string name="formSubmitButtonText">Submit</string>
+    <string name="firstNameFieldText">Enter first name...</string>
+    <string name="lastNameFormFieldText">Enter last name...</string>
+    <string name="enterEmailFormFieldText">Enter email</string>
+    <string name="formGoBackButtonText">Go Back</string>
+    <string name="datePageGoBackButtonText">Go Back</string>
+    <string name="switchPageGoBackButtonText">Go Back</string>
+    <string name="switchOneText">Off</string>
+    <string name="switchThreeText">Off</string>
+    <string name="switchTwoText">Off</string>
+    <string name="switchFourText">Off</string>
+    <string name="switchFiveText">Off</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.basicproject.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_Go_To_Alert_Page"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_Go_To_List_Page"
+            app:destination="@id/listPage" />
+        <action
+            android:id="@+id/action_FirstFragment_to_textFieldPage"
+            app:destination="@id/textFieldPage" />
+        <action
+            android:id="@+id/action_FirstFragment_to_formPage"
+            app:destination="@id/formPage" />
+        <action
+            android:id="@+id/action_FirstFragment_to_datePickerPage"
+            app:destination="@id/datePickerPage" />
+        <action
+            android:id="@+id/action_FirstFragment_to_switchPage"
+            app:destination="@id/switchPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.basicproject.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_Go_Back_To_Home_From_Alert"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/textFieldPage"
+        android:name="com.example.basicproject.TextFieldPage"
+        android:label="TextFieldPage" >
+        <action
+            android:id="@+id/action_textFieldPage_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/formPage"
+        android:name="com.example.basicproject.FormPage"
+        android:label="FormPage" >
+        <action
+            android:id="@+id/action_formPage_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/datePickerPage"
+        android:name="com.example.basicproject.DatePickerPage"
+        android:label="DatePickerPage" >
+        <action
+            android:id="@+id/action_datePickerPage_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/switchPage"
+        android:name="com.example.basicproject.SwitchPage"
+        android:label="SwitchPage" >
+        <action
+            android:id="@+id/action_switchPage_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listPage"
+        android:name="com.example.basicproject.ListPage"
+        android:label="ListPage" >
+        <action
+            android:id="@+id/action_listPage_To_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+</navigation>
